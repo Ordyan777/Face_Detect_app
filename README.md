@@ -10,6 +10,10 @@ FOR LINUX ( Ubuntu default ) | Linux Mint
 Using this commands
 
 1. sudo apt install build-essential cmake libopenblas-dev liblapack-dev libx11-dev libgtk-3-dev
-2. Download
-3. Activate Venv script - source face/bin/activate - if you using fish , try this command - source face/bin/activate.fish
-4. Use this command - pip -m -i requirements.txt
+
+3. Download This Repo 
+
+4. Activate Venv script - source face/bin/activate
+   - If You Using Fish , Try This Command - source face/bin/activate.fish
+
+6. Use This Command - pip -m -i requirements.txt
