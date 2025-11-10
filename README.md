@@ -23,8 +23,6 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
 5. Use This Command - pip -m -i requirements.txt
 
 
--------------------------------
-|                             |
-----==== by Ordyan 777 ====----
-|                             |
--------------------------------
+
+----==== by Ordyan777 ====----
+
