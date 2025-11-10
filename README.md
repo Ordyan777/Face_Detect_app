@@ -1,5 +1,5 @@
-# Face_Detect_app
-This App created for Bakhakats Educational School 
+# Face Detect App/Script Alpha Version 
+Created for Bakhakats Educational School a.k.a. ( Real School Goris )
 
 FOR LINUX ( Ubuntu default ) | Linux Mint
 
@@ -21,3 +21,10 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
    - If You Using Fish , Try This Command - source face/bin/activate.fish
 
 5. Use This Command - pip -m -i requirements.txt
+
+
+-------------------------------
+|                             |
+----==== by Ordyan 777 ====----
+|                             |
+-------------------------------
