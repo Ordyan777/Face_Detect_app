@@ -1,0 +1,7 @@
+opencv-python
+face_recognition
+face_recognition_models
+numpy
+pickle
+json
+pillow
