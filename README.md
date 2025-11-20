@@ -21,9 +21,9 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
    - source .venv/bin/activate
    - If You Using Fish , Try This Command - source .venv/bin/activate.fish
 
-4. Use This Command - pip -r requirements.txt
+4. Use This Command - pip install -r requirements.txt
 
-5. Soon....
+6. Soon....
 
 ----==== by Ordyan777 ====----
 
