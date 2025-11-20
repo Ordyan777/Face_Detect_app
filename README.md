@@ -25,5 +25,5 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
 
 6. Soon....
 
-----==== by Ordyan777 ====----
-
+P.S 
+Me using Python3.10 for test venv_test.py
