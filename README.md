@@ -5,7 +5,8 @@ FOR LINUX ( Ubuntu default )
 
 
 | Minimum Requirements for test |
-- Python3.10  
+- Python3.10
+- Ubuntu 24.10+
 ---------------------------------
 
 # Copy this script , and paste in the terminal , and press enter
