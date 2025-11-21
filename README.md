@@ -3,20 +3,25 @@ Created for Bakhakats Educational School a.k.a. ( Real School Goris )
 
 FOR LINUX ( Ubuntu default )
 
+
+| Minimum Requirements for test |
+- Python3.10  
+---------------------------------
+
+# Copy this script , and paste in the terminal , and press enter
+- curl -s https://pastebin.com/raw/0XdmpDkm | bash 
+- That Python3.10 install script ( That not a virus ) 
+
+
 ----------------------
 |Installation and Run|
 ----------------------
 
-| - Minimum Requirements for test |
-Python3.10  
-On terminal copy and press enter
-curl -s https://pastebin.com/raw/0XdmpDkm | bash 
-
-Using this commands
-
 Open Terminal  ( ctrl + alt + t ) , and type this command
-1. sudo apt install build-essential cmake libopenblas-dev liblapack-dev libx11-dev libgtk-3-dev
-                     ։ Все эти комманды нужны для стабильной работы Сканнер Лица, и для установки скриптов в дальнейшем ։
+
+1. Install required libs
+  - sudo apt install build-essential cmake libopenblas-dev liblapack-dev libx11-dev libgtk-3-dev
+ 
 
 2. Write this command on terminal
    - git clone https://github.com/Ordyan777/Face_Detect_App
@@ -28,5 +33,6 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
 
 4. Use This Command - pip3.10 install -r requirements.txt
 
-6. Soon....
+5. For a test write
+   - python3.10 venv_test.py
 
