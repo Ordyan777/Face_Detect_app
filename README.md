@@ -26,7 +26,7 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
  
 
 2. Write this command on terminal
-   - git clone https://github.com/Ordyan777/Face_Detect_App
+  - git clone https://github.com/Ordyan777/Face_Detect_App
 
 3. Create and Activate venv ( Virtual Environment ) 
    - python3.10 -m venv .venv310
