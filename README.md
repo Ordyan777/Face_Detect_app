@@ -28,15 +28,16 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
 2. Write this command on terminal
   - ` git clone https://github.com/Ordyan777/Face_Detect_App `
 
-3. Create and Activate venv ( Virtual Environment ) 
+3. Now go to cloned directory and run venv
+   - ` cd Face_Detect_App `
    - ` python3.10 -m venv .venv310 `
    - ` source .venv310/bin/activate `
    - If You Using Fish , Try This Command - ` source .venv310/bin/activate.fish `
 
-4. Use This Command - `  pip3.10 install -r requirements.txt `
+5. Use This Command - `  pip3.10 install -r requirements.txt `
 
-5. For a test write
+6. For a test write
    - ` python3.10 venv_test.py `
 
-6. If venv_test.py working , write ` face_detect.py *and select photo* `
+7. If venv_test.py working , write ` face_detect.py *and select photo* `
 
