@@ -38,3 +38,5 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
 5. For a test write
    - python3.10 venv_test.py
 
+6. If venv_test.py working , write face_detect.py *and select photo*
+
