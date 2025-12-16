@@ -45,6 +45,7 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
 
 7. If venv_test.py working , write ` face_detect.py *and select photo* `
 
-8. For a test webcam ` python3.10 webcam_detect.py `
+---==== Multitool for RTSP Camera ===---
 
-9. For a detect face in webcam ` python3.10 web_test.py `
+
+For a test write ` python3.10 tools.py ` and check your camera 
