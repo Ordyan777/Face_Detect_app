@@ -1,4 +1,4 @@
-# Face Detect App/Script Alpha Version 
+# Face Detect App/Script Beta 
 Created for Bakhakats Educational School a.k.a. ( Real School Goris )
 
 FOR LINUX ( Ubuntu default )
