@@ -38,7 +38,7 @@ Open Terminal  ( ctrl + alt + t ) , and type this command
    - ` source .venv310/bin/activate `
    - If You Using Fish , Try This Command - ` source .venv310/bin/activate.fish `
 
-5. Use This Command - `  pip3.10 install -r requirements.txt `
+5. Installing Requirements libs for Camera - `  pip3.10 install -r requirements.txt `
 
 6. For a test write
    - ` python3.10 venv_test.py `
