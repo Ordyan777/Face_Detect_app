@@ -33,10 +33,10 @@ def check_port(port):
 # --- New Menu & AllInOne ---
 def unified_stream():
     print("\n[INFO] Starting 3in1 Mode...")
-    print("   [1] -> HD Quality")
-    print("   [2] -> Low Quality")
-    print("   [F] -> Toggle Face Detect")
-    print("   [ESC] -> Quit")
+    print("   [1] - HD Quality")
+    print("   [2] - Low Quality")
+    print("   [f] - Toggle Face Detect")
+    print("   [ESC] - Quit")
 
     # Basic Settings
     current_url = RTSP_HIGH
@@ -68,7 +68,7 @@ def unified_stream():
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             faces = face_cascade.detectMultiScale(gray, 1.2, 5)
             for (x, y, w, h) in faces:
-            cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+                cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
             
             # Writing Finding Faces...
             cv2.putText(frame, f"Faces: {len(faces)}", (10, 70), 
@@ -80,11 +80,11 @@ def unified_stream():
         cv2.putText(frame, f"Quality: {quality_name}", (10, 30), 
                     cv2.FONT_HERSHEY_SIMPLEX, 0.7, color_info, 2)
         
-        # Hint in Monitor
+        # hint in Monitor
         cv2.putText(frame, "[1] HD [2] Low [F] Face [ESC] Exit ---=== by Catalyst ===---", (10, frame.shape[0] - 20), 
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (200, 200, 200), 1)
 
-        cv2.imshow("---=== V380 Camera ===---", frame)
+        cv2.imshow("V380 Unified Monitor", frame)
 
         # --- key ---
         key = cv2.waitKey(1)
@@ -94,12 +94,12 @@ def unified_stream():
         
         elif key == ord('f'): # key 'f' - on/off face
             face_detect_on = not face_detect_on
-           state = "ON" if face_detect_on else "OFF"
+            state = "ON" if face_detect_on else "OFF"
             print(f"[CMD] Face Detection: {state}")
 
         elif key == ord('1'): # key '1' switch on High
             if current_url != RTSP_HIGH:
-                os.system('cls' if os.name == 'nt' else 'clear')
+                print("[CMD] Switching to HD Quality...")
                 current_url = RTSP_HIGH
                 quality_name = "HD Quality (ch0)"
                 cap.release()
@@ -107,7 +107,7 @@ def unified_stream():
 
         elif key == ord('2'): # key '2' switch on Low
             if current_url != RTSP_LOW:
-                os.system('cls' if os.name == 'nt' else 'clear')
+                print("[CMD] Switching to LOW Quality...")
                 current_url = RTSP_LOW
                 quality_name = "Low Quality (ch1)"
                 cap.release()
@@ -139,27 +139,23 @@ def benchmark_fps():
     end = time.time()
     cap.release()
     print(f"\n[RESULT] FPS : {frames / (end - start):.2f}\n")
-    os.system('cls' if os.name == 'nt' else 'clear')
-
 
 def check_ports():
     print("\n[INFO] Checking Ports...")
     for p in [554, 8899, 80]:
-        time.sleep(2)
         print(f"Port {p}: {'Open' if check_port(p) else 'Closed'}")
 def menu():
     while True:
         # ... (menu without changing)
-        print(
-        """ 
+        print("""
 =============================
-      v380 PaneL MoDe
+v380 PaneL MoDe
 =============================
-1 -> 3in1 MODE (Stream + Face + HD/Low Quality)
-2 -> Low Delay (FFmpeg external)
-3 -> Benchmark FPS
-4 -> Check Ports
-0 -> Exit
+1) 3in1 MODE (Stream + Face + Switch Quality)
+2) Low Delay (FFmpeg external)
+3) Benchmark FPS
+4) Check Ports
+0) Exit
 """)
         choice = input("> ")
 
