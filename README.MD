@@ -55,12 +55,14 @@ source .venv310/bin/activate.fish
    pip3.10 install -r requirements.txt
    ```
 
-6. For a test write
+# all python files are located in this folder old_pythons_files #
+
+5. For a test write
    ``` py
    python3.10 venv_test.py
    ```
 
-8. If venv_test.py working , write
+6. If venv_test.py working , write
    ``` py
    face_detect.py *and select photo*
    ```
