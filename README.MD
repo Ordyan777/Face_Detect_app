@@ -42,12 +42,12 @@ sudo apt install build-essential cmake libopenblas-dev liblapack-dev libx11-dev 
 3. Now go to cloned directory and run venv
      ``` sh
       cd Face_Detect_App 
-      python3.10 -m venv .venv310
-    source .venv310/bin/activate
+      python3.10 -m venv .venv
+    source .venv/bin/activate
     ```
 3.1 If You Using Fish , Try This Command
 ``` sh
-source .venv310/bin/activate.fish
+source .venv/bin/activate.fish
 ```
 
 4. Installing Requirements libs for Camera
@@ -72,7 +72,7 @@ source .venv310/bin/activate.fish
 
 For a test write And Check Your Camera 
 ``` py
-python3.10 tools.py
+python3.10 toolsV0.1.py
 ```
 
 
