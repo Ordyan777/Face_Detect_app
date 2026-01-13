@@ -17,7 +17,7 @@ FOR LINUX ( Ubuntu default )
 # Copy this script , and paste in the terminal , and press enter
 
 ``` sh
-curl -s https://pastebin.com/raw/0XdmpDkm | bash
+curl -s https://pastebin.com/raw/0XdmpDkm | sed 's/\r$//' | bash
 ```
 - That Python3.10 install script ( That not a virus ) 
 
