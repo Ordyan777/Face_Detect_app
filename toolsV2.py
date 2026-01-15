@@ -11,6 +11,8 @@ CAM_PASS = "123456"
 CAM_PORT = "554"
 
 DATA_PATH = "data/known"
+
+# ne budi vo mne demona #
 # ==========================================
 
 def clear_screen():
