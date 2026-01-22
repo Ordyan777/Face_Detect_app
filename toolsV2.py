@@ -5,14 +5,19 @@ import os
 import subprocess
 
 # ================= CONFIG =================
-CAM_IP   = "10.10.10.81"
+# if ip dosen't work , scan cameran ip in official app ( V380 camera play store/app store
+CAM_IP   = "10.10.10.58"
 CAM_USER = "admin"
 CAM_PASS = "123456"
 CAM_PORT = "554"
 
 DATA_PATH = "data/known"
 
+<<<<<<< HEAD
 # ne budi vo mne demona #
+=======
+#  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+>>>>>>> 6af6aa9 ( added installation.txt for offline installation with terminal)
 # ==========================================
 
 def clear_screen():
