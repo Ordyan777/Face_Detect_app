@@ -13,12 +13,9 @@ CAM_PORT = "554"
 
 DATA_PATH = "data/known"
 
-<<<<<<< HEAD
+
 # ne budi vo mne demona #
-=======
-#  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
->>>>>>> 6af6aa9 ( added installation.txt for offline installation with terminal)
-# ==========================================
+
 
 def clear_screen():
     os.system("cls" if os.name == "nt" else "clear")
