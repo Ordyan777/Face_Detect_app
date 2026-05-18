@@ -1,3 +1,12 @@
-.venv310/
+.venv/
 output/
-pythons/
+old_python_files/
+data/
+encodings.pickle
+camera_config.json
+*.swp
+logs/
+__pycache__/
+*.pyc
+2026_may/
+
