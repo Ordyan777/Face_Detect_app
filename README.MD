@@ -1,26 +1,32 @@
 # Face Detect App/Script
-# Alpha Version 
-Created for Bakhakats Educational School a.k.a. ( Real School Goris )
+# Alpha version of a face recognition and camera management system.
 
-FOR LINUX ( Ubuntu default )
+Created for the “Bakhakats Educational School”
+(Real School Goris)
 
-
-| Minimum Requirements for test |
-- Python3.10
-- Ubuntu 24.10+
-- And have enough space to install scripts.
-- Tested on the SmartNet Camera V380 model.Q16S-1
+Designed for Linux systems (Ubuntu recommended).
 
 
-| Does work with Python 3.9- |
----------------------------------
+- Minimum Requirements
 
-# Copy this script , and paste in the terminal , and press enter
+Ubuntu 24.04+
+Python 3.10+
+Internet connection
+Webcam or RTSP Camera
+Enough disk space for dependencies
 
-``` sh
-curl -s https://pastebin.com/raw/0XdmpDkm | sed 's/\r$//' | bash
-```
-- That Python3.10 install script ( That not a virus ) 
+
+- Features
+
+ Face Recognition
+ USB Camera Support
+ RTSP Camera Support
+ Camera Auto Detection
+ Dataset Collection
+ Face Encoding Generator
+ Low Delay Stream Mode
+ Multi-Camera Support
+ Logging System
 
 
 ----------------------
@@ -63,15 +69,10 @@ source .venv/bin/activate.fish
    python3.10 venv_test.py
    ```
 
-6. If venv_test.py working , write
-   ``` py
-   face_detect.py *and select photo*
-   ```
-
----==== Multitool for RTSP Camera ===---
+---==== Advanced Control Panel for USB/RTSP Cameras ===---
 
 
-For a test write And Check Your Camera 
+For a test ,write And Check Your Camera 
 ``` py
 python3.10 toolsV0.1.py
 ```
