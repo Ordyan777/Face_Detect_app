@@ -60,8 +60,6 @@ sudo ./install.sh
    pip3.10 install -r requirements.txt
    ```
 
-# all python files are located in this folder old_pythons_files #
-
 5. Test Virtual Environment
    ``` py
    python3.10 venv_test.py
