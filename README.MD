@@ -1,26 +1,35 @@
-# Face Detect App/Script
-# Alpha Version 
-Created for Bakhakats Educational School a.k.a. ( Real School Goris )
+# Face Detect App
 
-FOR LINUX ( Ubuntu default )
+Alpha version of a face recognition and camera management system for Linux.
 
+Created for “Bakhakats Educational School” (Real School Goris).
 
-| Minimum Requirements for test |
-- Python3.10
-- Ubuntu 24.10+
-- And have enough space to install scripts.
-- Tested on the SmartNet Camera V380 model.Q16S-1
+---
 
+## Features
 
-| Does work with Python 3.9- |
----------------------------------
+- Face recognition
+- USB camera support
+- RTSP camera support
+- Multi-camera support
+- Camera auto-detection
+- Dataset collection
+- Logging system
+- Face encoding generator
 
-# Copy this script , and paste in the terminal , and press enter
+---
 
-``` sh
-curl -s https://pastebin.com/raw/0XdmpDkm | sed 's/\r$//' | bash
-```
-- That Python3.10 install script ( That not a virus ) 
+## Requirements
+
+- Ubuntu 24.04+
+- Python 3.10+
+- Webcam or RTSP camera
+- Internet connection
+- Enough disk space
+
+Tested on:
+- SmartNet Camera V380 Q16S-1
+- USB Camera 
 
 
 ----------------------
@@ -29,13 +38,12 @@ curl -s https://pastebin.com/raw/0XdmpDkm | sed 's/\r$//' | bash
 
 Open Terminal  ( ctrl + alt + t ) , and type this command
 
-1. Install required libs
+1. Install required python3.10 & libs
 ``` sh
-sudo apt install build-essential cmake libopenblas-dev liblapack-dev libx11-dev libgtk-3-dev
+sudo ./install.sh
 ```
- 
 
-2. Write this command on terminal
+2. Clone repository
    ``` sh
    git clone https://github.com/Ordyan777/Face_Detect_App
    ```
@@ -46,34 +54,23 @@ sudo apt install build-essential cmake libopenblas-dev liblapack-dev libx11-dev 
       python3.10 -m venv .venv
     source .venv/bin/activate
     ```
-3.1 If You Using Fish , Try This Command
-``` sh
-source .venv/bin/activate.fish
-```
 
-4. Installing Requirements libs for Camera
+4. Installing Requirements libs for Face_Detect_Script
    ``` py
    pip3.10 install -r requirements.txt
    ```
 
-# all python files are located in this folder old_pythons_files #
-
-5. For a test write
+5. Test Virtual Environment
    ``` py
    python3.10 venv_test.py
    ```
 
-6. If venv_test.py working , write
-   ``` py
-   face_detect.py *and select photo*
-   ```
-
----==== Multitool for RTSP Camera ===---
+---==== Advanced Control Panel for USB/RTSP Cameras ===---
 
 
-For a test write And Check Your Camera 
+Advanced Control Panel for All Cameras ( RTSP/USB ) 
 ``` py
-python3.10 toolsV0.1.py
+python3.10 main_menu.py
 ```
 
 

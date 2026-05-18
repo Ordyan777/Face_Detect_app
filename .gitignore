@@ -1,12 +1,14 @@
 .venv/
+venv/
 output/
 old_python_files/
-data/
+
 encodings.pickle
 camera_config.json
-*.swp
 logs/
+
 __pycache__/
 *.pyc
-2026_may/
+*.swp
 
+2026_may/
