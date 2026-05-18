@@ -44,7 +44,7 @@ make -j$(nproc)
 sleep 2
 clear
 
-echo "[INFO] Installing Python 3.10..."
+echo "[INFO] Installing Python 3.10.14 ..."
 sudo make altinstall
 sleep 2
 clear
@@ -69,7 +69,7 @@ rm -rf Python-3.10.14*
 sleep 2 
 clear
 
-echo "[SUCCESS] Python 3.10 installed successfully!"
+echo "[SUCCESS] Python 3.10.14 installed successfully!"
 
 sleep 3
 clear
