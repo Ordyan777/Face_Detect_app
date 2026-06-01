@@ -1,6 +1,6 @@
 # Face Detect App
 
-Alpha version of a face recognition and camera management system for Linux.
+Beta version of a face recognition and camera management system for Linux.
 
 Created for “Bakhakats Educational School” (Real School Goris).
 
@@ -23,9 +23,9 @@ Created for “Bakhakats Educational School” (Real School Goris).
 
 - Ubuntu 24.04+
 - Python 3.10+
-- Webcam or RTSP camera
+- USB Webcam or RTSP camera
 - Internet connection
-- Enough disk space
+- Enough disk space - ~1.5GB
 
 Tested on:
 - SmartNet Camera V380 Q16S-1
@@ -38,7 +38,7 @@ Tested on:
 
 Open Terminal  ( ctrl + alt + t ) , and type this command
 
-1. Install required python3.10 & libs
+1. Install required ( Special Python3.10 ) & library's
 ``` sh
 sudo ./install.sh
 ```
@@ -55,14 +55,14 @@ sudo ./install.sh
     source .venv/bin/activate
     ```
 
-4. Installing Requirements libs for Face_Detect_Script
+4. Installing Requirements library's
    ``` py
    pip3.10 install -r requirements.txt
    ```
 
-5. Test Virtual Environment
+5. Testing Virtual Environment
    ``` py
-   python3.10 venv_test.py
+   python3.10 old_python_files/venv_test.py
    ```
 
 ---==== Advanced Control Panel for USB/RTSP Cameras ===---
