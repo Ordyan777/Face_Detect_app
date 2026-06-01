@@ -4,6 +4,8 @@ Beta version of a face recognition and camera management system for Linux.
 
 Created for “Bakhakats Educational School” (Real School Goris).
 
+
+
 ---
 
 ## Features
@@ -16,6 +18,7 @@ Created for “Bakhakats Educational School” (Real School Goris).
 - Dataset collection
 - Logging system
 - Face encoding generator
+- NEW Telegram Bot notifications ( soon ... ) 
 
 ---
 
@@ -69,8 +72,8 @@ sudo ./install.sh
 
 
 Advanced Control Panel for All Cameras ( RTSP/USB ) 
-``` py
-python3.10 main_menu.py
+``` sh
+./start.sh
 ```
 
 
