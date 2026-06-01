@@ -2,7 +2,7 @@
 
 Beta version of a face recognition and camera management system for Linux.
 
-Created for “Bakhakats Educational School” (Real School Goris).
+Created for “Bakhakats Educational Centre” (Real School Goris).
 
 
 
