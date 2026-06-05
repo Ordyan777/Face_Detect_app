@@ -18,6 +18,7 @@ Created for “Bakhakats Educational Centre” (Real School Goris).
 - Dataset collection
 - Logging system
 - Face encoding generator
+- Boost FPS on ( REC / FACE ) 
 - NEW Telegram Bot notifications ( soon ... ) 
 
 ---
@@ -28,10 +29,10 @@ Created for “Bakhakats Educational Centre” (Real School Goris).
 - Python 3.10+
 - USB Webcam or RTSP camera
 - Internet connection
-- Enough disk space - ~1.5GB
+- Enough disk space - ~1GB
 
 Tested on:
-- SmartNet Camera V380 Q16S-1
+- SmartNet Camera V380 Q16S-1 ( Real quality 720P , don't show faces , only small pixels )
 - USB Camera 
 
 
